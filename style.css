@@ -838,6 +838,9 @@ form:hover .form-button button {
 
   .landing{
     height: 100vh;
+    background-image: url(1.jpg);
+    /* background-position: right 40% bottom 25%; */
+    background-size: 100%;
   }
 
   .header-section {
@@ -957,7 +960,7 @@ form:hover .form-button button {
     align-content: left;
     color: #000;
     font-size: 12px;
-    font-weight: 700;
+    font-weight: 500;
     margin: 7px 0 7px 0;
   }
 
@@ -980,7 +983,7 @@ form:hover .form-button button {
     align-content: left;
     color: #000;
     font-size: 12px;
-    font-weight: 700;
+    font-weight: 500;
     margin: 4px 0 4px 0;
   }
 
@@ -992,7 +995,6 @@ form:hover .form-button button {
   .instructions-div-1 {
     width: 80vw;
     height: 30vh;
-    background-color: #fcfaf8;
     margin: 8px;
     display: flex;
     font-weight: 900;
@@ -1002,7 +1004,6 @@ form:hover .form-button button {
   .instructions-div-2 {
     width: 80vw;
     height: 23vh;
-    background-color: #81f6ac;
     margin: 8px;
     padding: 22px;
     border-radius: 6px;
@@ -1011,7 +1012,6 @@ form:hover .form-button button {
   .instructions-div-3 {
     width: 80vw;
     height: 23vh;
-    background-color: #fddd88;
     margin: 8px;
     padding: 22px;
     border-radius: 6px;
@@ -1024,7 +1024,6 @@ form:hover .form-button button {
   }
 
   .instructions-div-1-2 {
-    background-color: #f3eee6;
     width: 39vw;
     margin: 1.5vh;
     height: 27vh;
