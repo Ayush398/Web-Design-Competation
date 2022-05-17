@@ -849,7 +849,6 @@ form:hover .form-button button {
 
   #landing-heading{
     font-size: 32px;
-  
   }
 
   .center-div{
@@ -869,7 +868,7 @@ form:hover .form-button button {
   /* ********************* About Us ******************** */
 
   .about {
-    height: 106vh;
+    height: 117vh;
   }
 
   .codepen-heading {
@@ -903,7 +902,7 @@ form:hover .form-button button {
   } */
 
   .about-p {
-    font-size: 12px;
+    font-size: 14px;
     top: -12vh;
     position: relative;
     width: 80vw;
@@ -957,7 +956,7 @@ form:hover .form-button button {
   .instructions-div-heading-2 {
     align-content: left;
     color: #000;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 700;
     margin: 7px 0 7px 0;
   }
@@ -980,7 +979,7 @@ form:hover .form-button button {
   #instructions-div-heading-2 {
     align-content: left;
     color: #000;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 700;
     margin: 4px 0 4px 0;
   }
@@ -992,7 +991,7 @@ form:hover .form-button button {
 
   .instructions-div-1 {
     width: 80vw;
-    height: 28vh;
+    height: 30vh;
     background-color: #fcfaf8;
     margin: 8px;
     display: flex;
@@ -1002,7 +1001,7 @@ form:hover .form-button button {
 
   .instructions-div-2 {
     width: 80vw;
-    height: 21vh;
+    height: 23vh;
     background-color: #81f6ac;
     margin: 8px;
     padding: 22px;
@@ -1011,7 +1010,7 @@ form:hover .form-button button {
 
   .instructions-div-3 {
     width: 80vw;
-    height: 21vh;
+    height: 23vh;
     background-color: #fddd88;
     margin: 8px;
     padding: 22px;
@@ -1019,8 +1018,8 @@ form:hover .form-button button {
   }
 
   .instructions-div-1-1 {
-    width: 36vw;
-    height: 28vh;
+    width: 38vw;
+    height: 30vh;
     padding: 10px;
   }
 
@@ -1028,7 +1027,7 @@ form:hover .form-button button {
     background-color: #f3eee6;
     width: 39vw;
     margin: 1.5vh;
-    height: 25vh;
+    height: 27vh;
     border-radius: 7px;
   }
 }
