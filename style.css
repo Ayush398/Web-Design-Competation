@@ -5,220 +5,6 @@
   font-family: "Poppins", sans-serif;
 }
 
-/* ********************* Codepen Button ******************** */
-
-/* .header-buttons button span {
-  justify-content: center;
-  padding-bottom: 10px;
-}
-
-.btn-5 {
-  width: 130px;
-  height: 40px;
-  line-height: 42px;
-  padding: 0;
-  border: none;
-  background: rgb(255, 27, 0);
-  background: linear-gradient(
-    0deg,
-    rgba(255, 27, 0, 1) 0%,
-    rgba(251, 75, 2, 1) 100%
-  );
-}
-.btn-5:hover {
-  color: #f0094a;
-  background: transparent;
-  box-shadow: none;
-}
-.btn-5:before,
-.btn-5:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  height: 2px;
-  width: 0;
-  background: #f0094a;
-  box-shadow: -1px -1px 5px 0px #fff, 7px 7px 20px 0px #0003,
-    4px 4px 5px 0px #0002;
-  transition: 400ms ease all;
-}
-.btn-5:after {
-  right: inherit;
-  top: inherit;
-  left: 0;
-  bottom: 0;
-}
-.btn-5:hover:before,
-.btn-5:hover:after {
-  width: 100%;
-  transition: 800ms ease all;
-}
-*/
-
-.custom-btn {
-  width: 130px;
-  height: 40px;
-  color: #fff;
-  border-radius: 5px;
-  font-family: "Lato", sans-serif;
-  font-weight: 500;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  position: relative;
-  display: inline-block;
-  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
-    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
-  outline: none;
-
-  margin-right: 10px;
-}
-
-.btn-4 {
-  background-color: #4dccc6;
-  background-image: linear-gradient(315deg, #4dccc6 0%, #96e4df 74%);
-  line-height: 42px;
-  padding: 0;
-  border: none;
-}
-.btn-4:hover {
-  background-color: #89d8d3;
-  background-image: linear-gradient(315deg, #89d8d3 0%, #03c8a8 74%);
-}
-.btn-4 span {
-  position: relative;
-  display: block;
-  width: 100%;
-  height: 100%;
-}
-.btn-4:before,
-.btn-4:after {
-  position: absolute;
-  content: "";
-  right: 0;
-  top: 0;
-  box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, 0.9),
-    -4px -4px 6px 0 rgba(116, 125, 136, 0.2),
-    inset -4px -4px 6px 0 rgba(255, 255, 255, 0.9),
-    inset 4px 4px 6px 0 rgba(116, 125, 136, 0.3);
-  transition: all 0.3s ease;
-}
-.btn-4:before {
-  height: 0%;
-  width: 0.1px;
-}
-.btn-4:after {
-  width: 0%;
-  height: 0.1px;
-}
-.btn-4:hover:before {
-  height: 100%;
-}
-.btn-4:hover:after {
-  width: 100%;
-}
-.btn-4 span:before,
-.btn-4 span:after {
-  position: absolute;
-  content: "";
-  left: 0;
-  bottom: 0;
-  box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, 0.9),
-    -4px -4px 6px 0 rgba(116, 125, 136, 0.2),
-    inset -4px -4px 6px 0 rgba(255, 255, 255, 0.9),
-    inset 4px 4px 6px 0 rgba(116, 125, 136, 0.3);
-  transition: all 0.3s ease;
-}
-.btn-4 span:before {
-  width: 0.1px;
-  height: 0%;
-}
-.btn-4 span:after {
-  width: 0%;
-  height: 0.1px;
-}
-.btn-4 span:hover:before {
-  height: 100%;
-}
-.btn-4 span:hover:after {
-  width: 100%;
-}
-
-/* ********************* Codepen Button 2******************** */
-
-.btn-7 {
-  background: linear-gradient(
-    0deg,
-    rgba(255, 151, 0, 1) 0%,
-    rgba(251, 75, 2, 1) 100%
-  );
-  line-height: 42px;
-  padding: 0;
-  border: none;
-}
-.btn-7 span {
-  position: relative;
-  display: block;
-  width: 100%;
-  height: 100%;
-}
-.btn-7:before,
-.btn-7:after {
-  position: absolute;
-  content: "";
-  right: 0;
-  bottom: 0;
-  background: rgba(251, 75, 2, 1);
-  box-shadow: -7px -7px 20px 0px rgba(255, 255, 255, 0.9),
-    -4px -4px 5px 0px rgba(255, 255, 255, 0.9),
-    7px 7px 20px 0px rgba(0, 0, 0, 0.2), 4px 4px 5px 0px rgba(0, 0, 0, 0.3);
-  transition: all 0.3s ease;
-}
-.btn-7:before {
-  height: 0%;
-  width: 2px;
-}
-.btn-7:after {
-  width: 0%;
-  height: 2px;
-}
-.btn-7:hover {
-  color: rgba(251, 75, 2, 1);
-  background: transparent;
-}
-.btn-7:hover:before {
-  height: 100%;
-}
-.btn-7:hover:after {
-  width: 100%;
-}
-.btn-7 span:before,
-.btn-7 span:after {
-  position: absolute;
-  content: "";
-  left: 0;
-  top: 0;
-  background: rgba(251, 75, 2, 1);
-  box-shadow: -7px -7px 20px 0px rgba(255, 255, 255, 0.9),
-    -4px -4px 5px 0px rgba(255, 255, 255, 0.9),
-    7px 7px 20px 0px rgba(0, 0, 0, 0.2), 4px 4px 5px 0px rgba(0, 0, 0, 0.3);
-  transition: all 0.3s ease;
-}
-.btn-7 span:before {
-  width: 2px;
-  height: 0%;
-}
-.btn-7 span:after {
-  height: 2px;
-  width: 0%;
-}
-.btn-7 span:hover:before {
-  height: 100%;
-}
-.btn-7 span:hover:after {
-  width: 100%;
-}
-
 /* Scroll Bar Removal */
 body {
   overflow-x: hidden;
@@ -398,44 +184,21 @@ i {
   align-items: center;
   justify-content: center;
   display: flex;
+  padding-top: 20vh;
 }
 
-.about-heading {
+/* .about-heading {
   font-size: 45px;
   text-align: center;
   padding-top: 12vh;
   margin-bottom: 50px;
-}
+} */
 
-.svg-wrapper {
+.codepen-heading {
+  text-align: center;
+  height: 100%;
+  top: 20vh;
   position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-  margin: 0 auto;
-  width: 320px;
-}
-.shape {
-  stroke-dasharray: 140 540;
-  stroke-dashoffset: -474;
-  stroke-width: 8px;
-  fill: transparent;
-  stroke: #19f6e8;
-  border-bottom: 5px solid black;
-  transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
-}
-.text {
-  font-family: "Roboto Condensed";
-  font-size: 22px;
-  line-height: 32px;
-  letter-spacing: 8px;
-  color: #fff;
-  top: -48px;
-  position: relative;
-}
-.svg-wrapper:hover .shape {
-  stroke-width: 2px;
-  stroke-dashoffset: 0;
-  stroke-dasharray: 760;
 }
 
 /* .about-heading:hover {
@@ -461,11 +224,11 @@ i {
   flex-wrap: wrap;
 }
 
-.instructions-heading {
+/* .instructions-heading {
   font-size: 45px;
   text-align: center;
   margin-bottom: 5vh;
-}
+} */
 
 .instructions-div-1-1 {
   width: 23vw;
@@ -534,93 +297,25 @@ i {
   border-radius: 10px;
 }
 
-/* ********************* three extra header div starts ******************** */
-
-.header-extradiv {
-  background-color: #040023;
-  width: 100%;
-  height: auto;
-  margin: 100px 0;
-  text-align: center;
+.instructions-animation {
+  width: 600px;
+  height: 600px;
 }
-
-.extradiv p {
-  text-align: justify;
-}
-
-.extradiv {
-  background-color: #040023;
-  border: none;
-  padding: 30px !important;
-  border-radius: 3px;
-  transition: 0.3s;
-}
-
-.extradiv:hover {
-  color: #040023;
-  box-shadow: -10px 10px 20px 10px rgba(62, 169, 211, 0.3);
-  transform: translateY(-20px);
-}
-
-/* ********************* three extra header div ends ******************** */
-
-/* ******************* service offer css start ********************** */
-
-.serviceoffers {
-  background-color: #040023;
-  padding: 50px 0;
-  margin-bottom: 50px;
-}
-
-.headings {
-  margin-bottom: 50px;
-}
-
-.headings h1 {
-  font-size: 2rem;
-  font-weight: 600;
-  text-transform: uppercase;
-}
-
-.names h1 {
-  color: #2e2e2e;
-  font-size: 0.9rem;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-.service-icons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.progress {
-  height: 0.6rem !important;
-  margin-bottom: 25px !important;
-}
-
-/* ******************* service offer css ends ********************** */
-
-/* ********************* project (completed) starts ****************************** */
-
-.project-work {
-  margin: 100px 0;
-}
-
-.project-work h1 {
-  font-size: 2rem;
-  text-align: center;
-}
-
-/* ********************* project (completed) ends ****************************** */
 
 /* ***********************timeline starts*********************************** */
+
+#codepen-heading-timeline {
+  padding-top: 20vh;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
 .container1 {
   width: 60%;
   margin: 0 auto;
   position: relative;
   text-align: center;
+  top: -12vh;
 }
 
 .container1::before {
@@ -718,6 +413,87 @@ i {
   }
 }
 /* *************timeline ends************************** */
+
+/* ********************* three extra header div starts ******************** */
+
+.header-extradiv {
+  background-color: #040023;
+  width: 100%;
+  height: auto;
+  margin: 100px 0;
+  text-align: center;
+}
+
+.extradiv p {
+  text-align: justify;
+}
+
+.extradiv {
+  background-color: #040023;
+  border: none;
+  padding: 30px !important;
+  border-radius: 3px;
+  transition: 0.3s;
+}
+
+.extradiv:hover {
+  color: #040023;
+  box-shadow: -10px 10px 20px 10px rgba(62, 169, 211, 0.3);
+  transform: translateY(-20px);
+}
+
+/* ********************* three extra header div ends ******************** */
+
+/* ******************* service offer css start ********************** */
+
+.serviceoffers {
+  background-color: #040023;
+  padding: 50px 0;
+  margin-bottom: 50px;
+}
+
+.headings {
+  margin-bottom: 50px;
+}
+
+.headings h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.names h1 {
+  color: #2e2e2e;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.service-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.progress {
+  height: 0.6rem !important;
+  margin-bottom: 25px !important;
+}
+
+/* ******************* service offer css ends ********************** */
+
+/* ********************* project (completed) starts ****************************** */
+
+.project-work {
+  margin: 100px 0;
+}
+
+.project-work h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+/* ********************* project (completed) ends ****************************** */
 
 /* ********************* our pricing starts ******************************  */
 
@@ -1025,7 +801,8 @@ form:hover .form-button button {
 /* *********************  footer ends ****************************** */
 
 /* ****************** Media Queries ********************** */
-@media (max-width: 768px) {
+
+@media (max-width: 770px) {
   .nav-item {
     text-align: center !important;
   }
@@ -1053,4 +830,455 @@ form:hover .form-button button {
   .footer-div {
     margin: 30px 0;
   }
+
+  /* ********************* landing ******************** */
+  .landing-animation {
+    display: none;
+  }
+
+  .landing{
+    height: 100vh;
+  }
+
+  .header-section {
+    margin-top: 20vh;
+    color: #fff;
+    text-align: center;
+    position: relative;
+  }
+
+  #landing-heading{
+    font-size: 32px;
+  
+  }
+
+  .center-div{
+    padding: 10px;
+    top: -10vh;
+    position: relative;
+  }
+
+  #landing-p{
+    font-size: 18px;
+  }
+
+  .header-buttons{
+    padding: 10px;
+  }
+
+  /* ********************* About Us ******************** */
+
+  .about {
+    height: 106vh;
+  }
+
+  .codepen-heading {
+    text-align: center;
+    height: 100%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    top: 10vh;
+  }
+
+  .about-icon {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    top: -8vh;
+  }
+
+  .about-content {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  /* .about-heading {
+    font-size: 45px;
+    text-align: center;
+    padding-top: 12vh;
+    margin-bottom: 50px;
+  } */
+
+  .about-p {
+    font-size: 12px;
+    top: -12vh;
+    position: relative;
+    width: 80vw;
+  }
+
+  /* ********************* Instructions ******************** */
+
+  .instructions {
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: auto;
+  }
+
+  #instructions-heading {
+    top: 10vh;
+    position: relative;
+    z-index: 1;
+  }
+
+  .instructions-animation {
+    width: 350px;
+    height: 350px;
+    order: 1;
+    overflow: hidden;
+    top: -5vh;
+    position: relative;
+  }
+
+  .instructions-content {
+    order: 2;
+  }
+
+  .instructions-div-heading {
+    color: #000;
+    font-size: 12px;
+    font-weight: 700;
+    margin: 0;
+  }
+
+  .instructions-div-heading-1 {
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 4vh;
+    text-align: left;
+    margin: 7px 0 7px 0;
+  }
+
+  .instructions-div-heading-2 {
+    align-content: left;
+    color: #000;
+    font-size: 10px;
+    font-weight: 700;
+    margin: 7px 0 7px 0;
+  }
+
+  #instructions-div-heading {
+    font-size: 12px;
+    font-weight: 700;
+    margin: 0;
+  }
+
+  #instructions-div-heading-1 {
+    color: #000;
+    font-size: 17px;
+    font-weight: 700;
+    margin-top: 4vh;
+    text-align: left;
+    margin: 5px 0 5px 0;
+  }
+
+  #instructions-div-heading-2 {
+    align-content: left;
+    color: #000;
+    font-size: 10px;
+    font-weight: 700;
+    margin: 4px 0 4px 0;
+  }
+
+  .instructions-div-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .instructions-div-1 {
+    width: 80vw;
+    height: 28vh;
+    background-color: #fcfaf8;
+    margin: 8px;
+    display: flex;
+    font-weight: 900;
+    border-radius: 6px;
+  }
+
+  .instructions-div-2 {
+    width: 80vw;
+    height: 21vh;
+    background-color: #81f6ac;
+    margin: 8px;
+    padding: 22px;
+    border-radius: 6px;
+  }
+
+  .instructions-div-3 {
+    width: 80vw;
+    height: 21vh;
+    background-color: #fddd88;
+    margin: 8px;
+    padding: 22px;
+    border-radius: 6px;
+  }
+
+  .instructions-div-1-1 {
+    width: 36vw;
+    height: 28vh;
+    padding: 10px;
+  }
+
+  .instructions-div-1-2 {
+    background-color: #f3eee6;
+    width: 39vw;
+    margin: 1.5vh;
+    height: 25vh;
+    border-radius: 7px;
+  }
+}
+
+/* ********************* Codepen Button ******************** */
+
+/* .header-buttons button span {
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+.btn-5 {
+  width: 130px;
+  height: 40px;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+  background: rgb(255, 27, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 27, 0, 1) 0%,
+    rgba(251, 75, 2, 1) 100%
+  );
+}
+.btn-5:hover {
+  color: #f0094a;
+  background: transparent;
+  box-shadow: none;
+}
+.btn-5:before,
+.btn-5:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 2px;
+  width: 0;
+  background: #f0094a;
+  box-shadow: -1px -1px 5px 0px #fff, 7px 7px 20px 0px #0003,
+    4px 4px 5px 0px #0002;
+  transition: 400ms ease all;
+}
+.btn-5:after {
+  right: inherit;
+  top: inherit;
+  left: 0;
+  bottom: 0;
+}
+.btn-5:hover:before,
+.btn-5:hover:after {
+  width: 100%;
+  transition: 800ms ease all;
+}
+*/
+
+.custom-btn {
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  outline: none;
+
+  margin-right: 10px;
+}
+
+.btn-4 {
+  background-color: #4dccc6;
+  background-image: linear-gradient(315deg, #4dccc6 0%, #96e4df 74%);
+  line-height: 42px;
+  padding: 0;
+  border: none;
+}
+.btn-4:hover {
+  background-color: #89d8d3;
+  background-image: linear-gradient(315deg, #89d8d3 0%, #03c8a8 74%);
+}
+.btn-4 span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.btn-4:before,
+.btn-4:after {
+  position: absolute;
+  content: "";
+  right: 0;
+  top: 0;
+  box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, 0.9),
+    -4px -4px 6px 0 rgba(116, 125, 136, 0.2),
+    inset -4px -4px 6px 0 rgba(255, 255, 255, 0.9),
+    inset 4px 4px 6px 0 rgba(116, 125, 136, 0.3);
+  transition: all 0.3s ease;
+}
+.btn-4:before {
+  height: 0%;
+  width: 0.1px;
+}
+.btn-4:after {
+  width: 0%;
+  height: 0.1px;
+}
+.btn-4:hover:before {
+  height: 100%;
+}
+.btn-4:hover:after {
+  width: 100%;
+}
+.btn-4 span:before,
+.btn-4 span:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, 0.9),
+    -4px -4px 6px 0 rgba(116, 125, 136, 0.2),
+    inset -4px -4px 6px 0 rgba(255, 255, 255, 0.9),
+    inset 4px 4px 6px 0 rgba(116, 125, 136, 0.3);
+  transition: all 0.3s ease;
+}
+.btn-4 span:before {
+  width: 0.1px;
+  height: 0%;
+}
+.btn-4 span:after {
+  width: 0%;
+  height: 0.1px;
+}
+.btn-4 span:hover:before {
+  height: 100%;
+}
+.btn-4 span:hover:after {
+  width: 100%;
+}
+
+/* ********************* Codepen Button 2******************** */
+
+.btn-7 {
+  background: linear-gradient(
+    0deg,
+    rgba(255, 151, 0, 1) 0%,
+    rgba(251, 75, 2, 1) 100%
+  );
+  line-height: 42px;
+  padding: 0;
+  border: none;
+}
+.btn-7 span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.btn-7:before,
+.btn-7:after {
+  position: absolute;
+  content: "";
+  right: 0;
+  bottom: 0;
+  background: rgba(251, 75, 2, 1);
+  box-shadow: -7px -7px 20px 0px rgba(255, 255, 255, 0.9),
+    -4px -4px 5px 0px rgba(255, 255, 255, 0.9),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.2), 4px 4px 5px 0px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+.btn-7:before {
+  height: 0%;
+  width: 2px;
+}
+.btn-7:after {
+  width: 0%;
+  height: 2px;
+}
+.btn-7:hover {
+  color: rgba(251, 75, 2, 1);
+  background: transparent;
+}
+.btn-7:hover:before {
+  height: 100%;
+}
+.btn-7:hover:after {
+  width: 100%;
+}
+.btn-7 span:before,
+.btn-7 span:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  background: rgba(251, 75, 2, 1);
+  box-shadow: -7px -7px 20px 0px rgba(255, 255, 255, 0.9),
+    -4px -4px 5px 0px rgba(255, 255, 255, 0.9),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.2), 4px 4px 5px 0px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+.btn-7 span:before {
+  width: 2px;
+  height: 0%;
+}
+.btn-7 span:after {
+  height: 2px;
+  width: 0%;
+}
+.btn-7 span:hover:before {
+  height: 100%;
+}
+.btn-7 span:hover:after {
+  width: 100%;
+}
+
+/* ********************* Codepen Headings******************** */
+
+.svg-wrapper {
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0 auto;
+  width: 320px;
+  text-align: center;
+}
+
+.shape {
+  stroke-dasharray: 140 540;
+  stroke-dashoffset: -474;
+  stroke-width: 8px;
+  fill: transparent;
+  stroke: #19f6e8;
+  border-bottom: 5px solid black;
+  transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
+}
+
+.text {
+  font-family: "Roboto Condensed";
+  font-size: 22px;
+  line-height: 32px;
+  letter-spacing: 8px;
+  color: #fff;
+  top: -48px;
+  position: relative;
+}
+
+.svg-wrapper:hover .shape {
+  stroke-width: 2px;
+  stroke-dashoffset: 0;
+  stroke-dasharray: 760;
 }

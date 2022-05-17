@@ -20,9 +20,9 @@
 
             <!-- -------------------- Navbar -------------------- -->
 
-            <nav class="navbar navbar-expand-lg navbar-dark fixed-top hi"  style="background-color: #000;">
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top hi" style="background-color: #000;">
                 <div class="container text-uppercase p-2">
-        
+
                     <button class="navbar-toggler" type="button" data-toggle="collapse"
                         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -55,8 +55,8 @@
                 <section class="header-section ">
                     <div class="center-div">
 
-                        <h1 class="font-weight-bold1">Lorem ipsum dolor sit amet.</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                        <h1 class="font-weight-bold1" id="landing-heading">Lorem ipsum dolor sit amet.</h1>
+                        <p id="landing-p">Lorem ipsum dolor sit amet consectetur.</p>
                         <div class="header-buttons">
                             <!-- <a href="#newsletterdiv">AboutUs</a> -->
                             <!-- <a href="#contactdiv">Register Now</a> -->
@@ -80,28 +80,41 @@
 
         <div class="about">
 
+            <div>
 
-            <div class="about-content">
-
-                <div class="about-icon">
-                    <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_bklapohq.json"
-                        background="transparent" speed="1" style="width: 650px; height: 650px;" loop autoplay>
-                    </lottie-player>
+                <div class="codepen-heading">
+                    <div class=" svg-wrapper">
+                        <svg height="60" width="320" xmlns="http://www.w3.org/2000/svg">
+                            <rect class="shape" height="60" width="320" />
+                            <div class="text">ABOUT US</div>
+                        </svg>
+                    </div>
                 </div>
 
-                <div>
-                <p class="about-heading"> About Us</p>
+                <div class="about-content">
 
-                <p class="about-p"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus autem officiis
-                    architecto sit
-                    obcaecati reiciendis vel? Repellendus dolor accusamus nobis eveniet molestiae. Nobis, sequi maxime
-                    tempore sed accusamus ullam exercitationem, tenetur dolorem corporis magni harum quibusdam
-                    voluptatibus hic eum necessitatibus reprehenderit ratione magnam dicta placeat est! Aliquid magnam,
-                    pariatur deleniti alias fugit consequatur officiis unde odit officia qui quibusdam explicabo ipsum
-                    assumenda quod facilis dolores repudiandae facere quia ipsam recusandae. Debitis ducimus maiores
-                    delectus eum, assumenda animi quam voluptatem iusto.
-                </p>
-            </div>
+                    <div class="about-icon">
+                        <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_bklapohq.json"
+                            background="transparent" speed="1" style="width: inherit; height: inherit;" loop autoplay
+                            id="about-icon-id">
+                        </lottie-player>
+                    </div>
+
+                    <!-- <p class="about-heading"> About Us</p> -->
+
+                    <p class="about-p"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus autem officiis
+                        architecto sit
+                        obcaecati reiciendis vel? Repellendus dolor accusamus nobis eveniet molestiae. Nobis, sequi
+                        maxime
+                        tempore sed accusamus ullam exercitationem, tenetur dolorem corporis magni harum quibusdam
+                        voluptatibus hic eum necessitatibus reprehenderit ratione magnam dicta placeat est! Aliquid
+                        magnam,
+                        pariatur deleniti alias fugit consequatur officiis unde odit officia qui quibusdam explicabo
+                        ipsum
+                        assumenda quod facilis dolores repudiandae facere quia ipsam recusandae. Debitis ducimus maiores
+                        delectus eum, assumenda animi quam voluptatem iusto.
+                    </p>
+                </div>
             </div>
         </div>
 
@@ -109,15 +122,22 @@
 
         <div class="instructions">
 
-            <div>
+            <div class="svg-wrapper" id="instructions-heading">
+                <svg height="60" width="320" xmlns="http://www.w3.org/2000/svg">
+                    <rect class="shape" height="60" width="320" />
+                    <div class="text">INSTRUCTIONS</div>
+                </svg>
+            </div>
 
-                <p class="instructions-heading">INSTRUCTIONS</p>
+            <div class="instructions-content">
+
+                <!-- <p class="instructions-heading">INSTRUCTIONS</p> -->
 
                 <div class="instructions-div-1">
                     <div class="instructions-div-1-1">
-                        <P class="instructions-div-heading">Heading-1</P>
-                        <P class="instructions-div-heading-1">Lorem, ipsum</P>
-                        <p class="instructions-div-heading-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        <P class="instructions-div-heading" id="instructions-div-heading">Heading-1</P>
+                        <P class="instructions-div-heading-1" id="instructions-div-heading-1">Lorem, ipsum</P>
+                        <p class="instructions-div-heading-2" id="instructions-div-heading-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             Blanditiis dolore obcaecati ipsa autem odit rem.</p>
                     </div>
                     <div class="instructions-div-1-2"></div>
@@ -143,9 +163,9 @@
 
             </div>
 
-            <div>
+            <div class="instructions-animation">
                 <lottie-player src="https://assets6.lottiefiles.com/packages/lf20_dym5jvtu.json"
-                    background="transparent" speed="1" style="width: 600px; height: 600px;" loop autoplay>
+                    background="transparent" speed="1" style="width: inherit; height: inherit;" loop autoplay>
                 </lottie-player>
             </div>
 
@@ -154,9 +174,13 @@
         <!---------------------- Timeline ---------------------->
 
         <div style="background-color: #000">
-            <h1 class="text-center font-weight-bold" style="color: white">
-                TIMELINE
-            </h1>
+            <div class="svg-wrapper" id="codepen-heading-timeline">
+                <svg height="60" width="320" xmlns="http://www.w3.org/2000/svg">
+                    <rect class="shape" height="60" width="320" />
+                    <div class="text">TIMELINE</div>
+                </svg>
+            </div>
+
             <div class="container1">
                 <div class="entry">
                     <div class="indicator">
@@ -694,6 +718,7 @@
 
 
     </div>
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
